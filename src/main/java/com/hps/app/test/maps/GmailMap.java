@@ -6,7 +6,7 @@ import com.hps.selenium.core.obj.BasePage;
 import com.hps.selenium.core.sizzlecss.BySizzle;
 import com.hps.selenium.core.util.ExpectedElements;
 
-public class AppMap extends BasePage
+public class GmailMap extends BasePage
 {
 	public static ExpectedElements loginFields = new ExpectedElements(buttonSignIn(), fieldUName(), fieldPwd());
 	public static By fieldUName()

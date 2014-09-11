@@ -1,18 +1,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="App Debug">
 
-	<parameter name="browserName" value="browser" />
+	<parameter name="browserName" value="IE" />
 	<parameter name="browserVersion" value="" />
-	<parameter name="platform" value="" />
-	<parameter name="wdHost" value="wdHost" />
-	<parameter name="baseUrl" value="baseUrl" />
+	<parameter name="platform" value="WINDOWS" />
+	<parameter name="wdHost" value="LOCAL" />
+	<parameter name="baseUrl" value="https://accounts.google.com"/>
 
 	<test name="app-debug">
 	
 		<classes>
-			<class name="com.hps.app.test.cases.applicationtest" />
+			<class name="com.hps.app.test.cases.GmailLogin" />
 			<methods>
-				<include name="test_Name" />
+				<include name="test_login" />
 			</methods>
 		</classes>
 		

@@ -3,9 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.hps</groupId>
-	<artifactId>app-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>app-test</name>
 	<description>Test automation framework for the app application.</description>
 
 	<repositories>
@@ -110,4 +108,6 @@
 		</snapshotRepository>
 	</distributionManagement>
 
+	<artifactId>gmail-login</artifactId>
+	<name>gmail-login</name>
 </project>
