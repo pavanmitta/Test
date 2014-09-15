@@ -16,6 +16,7 @@ public class GmailLogin1 extends BaseTestCase {
 		GmailPage.verifyDefaultFields();
 		Report.step("Select Login fields on the Gmail Login Page");
 		GmailPage.completeLoginForm();
+		Report.step("Select Login fields on the Gmail Login Page");
 	}
 
 }
