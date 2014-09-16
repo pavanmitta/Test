@@ -10,7 +10,7 @@
 	<test name="app-debug">
 	
 		<classes>
-			<class name="com.hps.app.test.cases.GmailLogin" />
+			<class name="com.hps.app.test.cases.GmailLogin1" />
 			<methods>
 				<include name="test_login" />
 			</methods>
